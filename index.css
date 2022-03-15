@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root{
+--fontSize:16px;
+--VeryPaleBlue: hsl(225, 100%, 98%);
+--PaleBlue: hsl(225, 100%, 94%);
+--DesaturatedBlue: hsl(224, 23%, 55%);
+--BrightBlue: hsl(245, 75%, 52%);
+--DarkBlue: hsl(223, 47%, 23%);
+font-family: 'Red Hat Display';
+font-weight: 500;
+font-size: var(--fontSize);
+margin: 0;
+padding: 0;
+}
+@media (min-width:375px) {
+    body{
+        background-image: url("./images/pattern-background-mobile.svg");
+        background-color: var(--PaleBlue);
+        background-repeat: no-repeat;
+        background-size:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
+    }
+    .order{
+        width: 330px;
+        border-radius: 1rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainImage{
+        
+        width: 330px;
+       
+        border-bottom: 0;
+        border-radius:1rem 1rem 0 0;
+    }
+    .label{
+        width: 270px;
+        text-align: center;
+    }
+    .label>h1{
+       font-weight: 900;
+       color: var(--DarkBlue);
+       font-size: x-large;
+      
+    }
+    .description{
+        width: 270px;
+       
+    }
+    .description>p{
+        text-align: center;
+        line-height: 2;
+        color:var(--DesaturatedBlue);
+        font-size: var(--fontSize);
+        margin: 0;
+    }
+    .changeField{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--VeryPaleBlue);
+        border-radius: 1rem;
+        padding: 20px 10px;
+        width: 270px;
+        margin: 20px 0;
+       
+    }
+    .iconMusic{
+       
+    }
+    .textField{
+        text-align: center;
+        padding:  5px 30px 5px 10px;
+    }
+    .textField>h4{
+        color: var(--DarkBlue);
+        
+        margin: 0;
+    }
+    .textField>p{
+        color: var(--DesaturatedBlue);
+      margin: 0;
+        
+    }
+    .buttonChange{
+        font-weight: 700;
+        color: var(--BrightBlue);
+    }
+    .buttonChange a:hover{
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .buttonApply{
+        border-radius: 1rem;
+        background-color: var(--BrightBlue);
+        color: var(--VeryPaleBlue);
+        width: 290px;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: var(--PaleBlue) 0 20px 20px 1px;
+    }
+    .buttonApply:hover{
+        cursor: pointer;
+    }
+    .buttonCancel{
+        height: 30px;
+        color: var(--DesaturatedBlue);
+        padding: 20px 0;
+        font-weight: 700;
+    }
+    .buttonCancel:hover{
+        cursor: pointer;
+    }
+}
+@media (min-width:1440px) {
+    body{
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-color: var(--PaleBlue);
+        background-repeat: no-repeat;
+        background-size:100%;
+    }
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
+    }
+    .order{
+        width: 330px;
+        border-radius: 1rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainImage{
+        
+        width: 330px;
+       
+        border-bottom: 0;
+        border-radius:1rem 1rem 0 0;
+    }
+    .label{
+        width: 270px;
+        text-align: center;
+    }
+    .label>h1{
+       font-weight: 900;
+       color: var(--DarkBlue);
+       font-size: x-large;
+      
+    }
+    .description{
+        width: 270px;
+       
+    }
+    .description>p{
+        text-align: center;
+        line-height: 2;
+        color:var(--DesaturatedBlue);
+        font-size: var(--fontSize);
+        margin: 0;
+    }
+    .changeField{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: var(--VeryPaleBlue);
+        border-radius: 1rem;
+        padding: 20px 10px;
+        width: 270px;
+        margin: 20px 0;
+       
+    }
+    .iconMusic{
+       
+    }
+    .textField{
+        text-align: center;
+        padding:  5px 30px 5px 10px;
+    }
+    .textField>h4{
+        color: var(--DarkBlue);
+        
+        margin: 0;
+    }
+    .textField>p{
+        color: var(--DesaturatedBlue);
+      margin: 0;
+        
+    }
+    .buttonChange{
+        font-weight: 700;
+        color: var(--BrightBlue);
+    }
+    .buttonChange a:hover{
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .buttonApply{
+        border-radius: 1rem;
+        background-color: var(--BrightBlue);
+        color: var(--VeryPaleBlue);
+        width: 290px;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: var(--PaleBlue) 0 20px 20px 1px;
+    }
+    .buttonApply:hover{
+        cursor: pointer;
+    }
+    .buttonCancel{
+        height: 30px;
+        color: var(--DesaturatedBlue);
+        padding: 20px 0;
+        font-weight: 700;
+    }
+    .buttonCancel:hover{
+        cursor: pointer;
+    }
+    
+}
+
+.attribution { 
+    position: absolute;
+    bottom:5px;
+    width: 98%;
+    margin: 0 auto;
+    font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
